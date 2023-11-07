@@ -8,7 +8,7 @@
 
 section {
     background-color: aqua;
-    background: url('5499054.jpg') no-repeat;
+    background: url('../Assets/5499054.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
