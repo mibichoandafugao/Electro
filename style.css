@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto' sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background-color: aqua;
+    background: url('5499054.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    width: 680px;
+    height: 400px;
+}
+
+
+.cap-selector {
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.cap-selector button {
+    height: 30px;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid black 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cap-selector button:hover {
+    background-color: cadetblue;
+}
+
+.capacitor-container {
+    display: flex;
+    flex-direction: column;
+    border: solid white 1px;
+    border-radius: 20px;
+    width: 630px;
+    height: 310px;
+    padding: 20px;
+    margin-left: 3px;
+}
+
+.image {
+    position: absolute;
+    width: 300px;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.labels span {
+    color: white;
+}
+
+.labels input {
+    border-radius: 8px;
+    border: none;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttons button {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid #752222 1px;
+    background-color: #752222;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: red;
+}
+
+.resultado {
+    margin-top: 90px;
+}
+
+.resultado span {
+    color: white;
+}
+
+.resultado input {
+    border-radius: 8px;
+    width: 168px;
+}
