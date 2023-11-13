@@ -121,4 +121,5 @@ section {
 .resultado input {
     border-radius: 8px;
     width: 168px;
+    padding-left: 5px;
 }
